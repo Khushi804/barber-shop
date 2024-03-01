@@ -27,6 +27,9 @@ grid-column: 3/4;
     justify-content: space-around;
     align-items: center;
 }
+.menu-items ul li{
+    list-style: none;
+}
 .menu-items ul li a{
     text-transform: capitalize;
      color:aliceblue;
