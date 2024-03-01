@@ -1,0 +1,54 @@
+.Logo{
+            
+    margin: 10px 34px;
+  /*  text-decoration: solid; */
+}
+.Logo h2{
+    text-decoration-style: solid;
+    color:blanchedalmond
+}
+.Logo h2 span{
+    color: rgb(175, 116, 39);
+}
+.Main-nav {
+    display: flex;
+  
+    background-color:rgb(78, 74, 74);
+    align-items: center;
+    
+    /* opacity: 0.7;  */
+    background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+.Main-nav .menu-items ul{
+    display: flex;
+    overflow: auto;
+}
+.Main-nav .menu-items ul li{
+           
+    float:left;
+    list-style: none;
+
+         margin:13px 14px;
+        
+}
+.Main-nav .menu-items ul li a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color:white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.login-button {
+       width:33px ;
+       height: 20px;
+       float: right;
+      border-radius: 10px;
+      border-color: aliceblue;
+
+}
+.login-button input {
+          text-decoration: none;
+          color:aliceblue;
+}
