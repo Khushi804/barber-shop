@@ -4,8 +4,9 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav className='Main-nav'>
-      <div className='Logo'>
+      <>
+    <nav className="Main-nav">
+      <div className="Logo">
         <h2>
           <span>B</span>arber
           <span>S</span>hop
@@ -28,11 +29,14 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="login-button">
+        
         <input type='button'>
            Login
         </input>
       </div>
     </nav>
+    
+    </>
   )
 }
 

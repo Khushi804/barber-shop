@@ -1,54 +1,48 @@
-.Logo{
-            
-    margin: 10px 34px;
-  /*  text-decoration: solid; */
-}
-.Logo h2{
-    text-decoration-style: solid;
-    color:blanchedalmond
-}
-.Logo h2 span{
-    color: rgb(175, 116, 39);
-}
+
 .Main-nav {
-    display: flex;
-  
-    background-color:rgb(78, 74, 74);
-    align-items: center;
+    width:100;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr 2fr 1fr  ;
+    background-color: rgb(34, 32, 32);
     
-    /* opacity: 0.7;  */
-    background-size: cover;
-background-position: center center;
-background-attachment: fixed;
+    
 }
-.Main-nav .menu-items ul{
+.Logo{
     display: flex;
-    overflow: auto;
-}
-.Main-nav .menu-items ul li{
-           
-    float:left;
-    list-style: none;
+     
+     grid-column: 2/3;
+     justify-content: start;
+     align-items: center;
 
-         margin:13px 14px;
-        
-}
-.Main-nav .menu-items ul li a{
-    padding: 10px 10px;
-    text-decoration: none;
-    color:white;
-    border-radius: 20px;
-    text-decoration: none;
-}
-.login-button {
-       width:33px ;
-       height: 20px;
-       float: right;
-      border-radius: 10px;
-      border-color: aliceblue;
 
 }
-.login-button input {
-          text-decoration: none;
-          color:aliceblue;
+.menu-items {
+grid-column: 3/4;
+
+}
+.menu-items ul{
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-items ul li a{
+    text-transform: capitalize;
+     color:aliceblue;
+     transition: 0.5s;
+}
+.login-button{
+    grid-column: 4/5;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border-color: aliceblue;
+
+}
+.login-button input{
+    text-decoration: solid;
+    color: aliceblue;
 }
